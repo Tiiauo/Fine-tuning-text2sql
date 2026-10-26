@@ -1,0 +1,26 @@
+# Model, data and run artifacts
+/artifacts/
+/models/
+/data/
+/downloads/
+/runs/
+/reports/
+/predictions/
+/logs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Local environments, caches and credentials
+.venv*/
+venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
